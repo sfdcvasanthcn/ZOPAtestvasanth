@@ -16,7 +16,6 @@ global class ZOPA_FetchApiDataBatch implements Database.Batchable<sObject>, Data
     
     global void finish(Database.BatchableContext BC) {
         //code for updating/upserting the records
-		//t
     }
     
 
