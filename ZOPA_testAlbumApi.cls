@@ -4,7 +4,7 @@ public class ZOPA_testAlbumApi {
     system.debug('payload ==>>> '+payLoad);
         return payLoad;
     }
-    
+     
     public static String getAlbumCallout() {
         String jsonString;
         Http http = new Http();

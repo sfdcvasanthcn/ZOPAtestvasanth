@@ -1,5 +1,5 @@
 global class ZOPA_FetchApiDataBatch implements Database.Batchable<sObject>, Database.AllowsCallouts, Database.stateful{
-    
+     
     global Database.QueryLocator start(Database.BatchableContext BC) {
     	String query = 'Select Id, Name, External_Id__c, Contact__c, Contact__r.Name, Contact__r.External_Id__c, Contact__r.Email from  Album__c';
         return Database.getQueryLocator(query);
